@@ -64,6 +64,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Primer Formulario.resx">
+      <DependentUpon>Primer Formulario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Segundo Formulario.resx">
       <DependentUpon>Segundo Formulario.cs</DependentUpon>
     </EmbeddedResource>
