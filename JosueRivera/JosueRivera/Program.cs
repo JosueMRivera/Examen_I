@@ -16,7 +16,7 @@ namespace JosueRivera
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Tercer_Formulario());
+            Application.Run(new Primer_Formulario());
         }
     }
 }

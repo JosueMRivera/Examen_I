@@ -64,9 +64,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Segundo Formulario.resx">
+      <DependentUpon>Segundo Formulario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tercer Formulario.resx">
       <DependentUpon>Tercer Formulario.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Productos\Productos.csproj">
+      <Project>{203e0a6f-b660-4452-ac78-81b18d1bbf43}</Project>
+      <Name>Productos</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
